@@ -1,13 +1,9 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
 # Controls when the action will run. 
 on: push
 name: 🚀 Deploy website on push
 jobs:
   dev-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Deploy dev
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
@@ -19,9 +15,9 @@ jobs:
         server: ftp.cluster011.hosting.ovh.net
         username: asaintla-ci
         password: ${{ secrets.password }}
-        server-dir: ./dev
+        server-dir: ./dev/
   prod-deploy:
-    name: 🎉 Deploy
+    name: 🎉 Deploy prod
     runs-on: ubuntu-latest
     steps:
     - name: 🚚 Get latest code
@@ -33,4 +29,4 @@ jobs:
         server: ftp.cluster011.hosting.ovh.net
         username: asaintla-ci
         password: ${{ secrets.password }}
-        server-dir: ./prod
+        server-dir: ./prod/
