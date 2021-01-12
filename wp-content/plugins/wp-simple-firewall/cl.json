@@ -1,0 +1,406 @@
+{
+  "10.1": {
+    "version":     "10.1",
+    "released_at": 1605606920,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease101",
+      "upgrade": "https://shsec.io/shieldupgradeguide101"
+    },
+    "href":        "https://shsec.io/",
+    "title":       "Enhanced Dashboard + MainWP Integration",
+    "description": [
+      "We're continuing our improvements to the Shield UI with a brand new Dashboard.",
+      "The Dashboard is your primary launchpad for all things WordPress Security and Shield.",
+      "We're also delighted to bring our first major 3rd party integration - MainWP."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Brand New Shield Dashboard",
+        "description": [
+          "With the help of some feedback from clients, we've made significant enhancements to the Shield UI.",
+          "A brand-new Shield dashboard centralises everything related to Shield giving you a consistent, clean launchpad to perform security tasks."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "MainWP Integration/Extension",
+        "description": [
+          "You can now manage your Shield Security plugin directly from within your MainWP WordPress management control panel.",
+          "The Shield Security Extension page will highlight all sites with any scan issues that need your attention.",
+          "For now, the functionality is limited to installing, activating and deactivating the Shield plugin."
+        ],
+        "href":        "https://shsec.io/ir"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "IP Analyse Tool Enhancements",
+        "description": [
+          "Based on customer feedback we've added links to the IP Analyse tool to let you quickly perform blocks or bypass on an IP.",
+          "The identification of a 'known' IP address now also draws information from the IP Bypass labels."
+        ]
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Enhanced Plugin Badge",
+        "description": [
+          "Based on customer feedback we've added the ability to customize the plugin badge based on Whitelabel settings.",
+          "You'll may also use a WordPress filter to make fine adjustments to settings and styles of the badge."
+        ],
+        "href":        "https://shsec.io/is"
+      },
+      {
+        "type":        "improved",
+        "pro_only":    false,
+        "title":       "Huge Codebase Refactor",
+        "description": [
+          "With our earlier move to PHP 7.0, we're continuing with our codebase cleanup and optimisations."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Shield Overview Styles",
+        "description": [
+          "With some feedback and suggestions provided by clients, we've improved our Shield Overview design."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "iControlWP Whitelist",
+        "description": [
+          "Fix to ensure iControlWP is properly whitelisted."
+        ],
+        "patch":       "10.1.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Bug with PHP Type Error in some cases",
+        "description": [],
+        "patch":       "10.1.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Bug with MainWP site actions not working in all cases",
+        "description": [],
+        "patch":       "10.1.3"
+      },
+      {
+        "type":        "new",
+        "title":       "Full support for Application Passwords arriving with WordPress 5.6",
+        "description": [
+          "Part of the purpose of Application Passwords is to allow APIs and 3rd parties to integrate with your WP site.",
+          "Shield recognises authentication via Application Passwords and doesn't apply restrictions to it, including 2FA.",
+          "Of course, failed logins attempted through Application Passwords will be treated as an offense against the site, as always."
+        ],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "improved",
+        "title":       "Full support for PHP 8.0",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "504 Gateway Timeout error on servers with malconfigured rDNS lookups.",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Ensure requests from ManageWP bypass Shield protections, where possible.",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "new",
+        "title":       "Add a new WordPress admin notice for when the Shield plugin version gets too old.",
+        "description": [],
+        "patch":       "10.1.4"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Stop notice showing when it's not required.",
+        "description": [],
+        "patch":       "10.1.5"
+      }
+    ]
+  },
+  "10.0": {
+    "version":     "10.0",
+    "released_at": 1603281600,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease100",
+      "upgrade": "https://shsec.io/shieldupgradeguide100"
+    },
+    "href":        "https://shsec.io/",
+    "title":       "All-New PHP-7 Optimised Shield Security",
+    "description": [
+      "We've massively enhanced the Dashboard UI, making it much easier to secure your WordPress site by quickly identifying areas of improvement.",
+      "Of particular note is the IP Analysis tool which lets you see all information pertaining to an IP address in 1 place."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Enhanced Dashboard Overview UI",
+        "description": [
+          "The new Dashboard Overview provides a simplified display of all security items on your site.",
+          "You can quickly discover where your site is doing well, and what areas need immediate attention or improvements.",
+          "Responsive filters let you filter by individual Shield modules and the current status of each item."
+        ]
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "SureSend Email Delivery",
+        "description": [
+          "Most WordPress sites aren't properly configured to send emails, so sometimes they don't arrive.",
+          "This is a critical issue when 2-Factor Authentication emails don't go where they should.",
+          "SureSend uses the ShieldNET API to deliver 2FA emails so that you always get them."
+        ],
+        "href":        "https://icwp.io/im"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "IP Analysis Tool",
+        "description": [
+          "Discover all the ways an IP address is interacting with your site, in 1 place.",
+          "Rather than jump around looking at different tables and filtering by IP address, you can see all information in the IP Analyse tool."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Force Shield Locale",
+        "description": [
+          "An option has been added that lets you force Shield to always display in certain locale.",
+          "Setting this option will override user's profile locale for anything relating to Shield.",
+          "This setting doesn't affect the locale for any other part of a WordPress site."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Huawei (Petal) Bot Detection",
+        "description": [
+          "Added support for detection of Huawei search engine bot/spider."
+        ]
+      },
+      {
+        "type":        "new",
+        "title":       "Shield plugin badge URL may be replaced using White Label settings",
+        "description": [
+          "The URL used in the Shield plugin badge may be replaced using the Home URL provided in White Label settings."
+        ],
+        "patch":       "10.0.3"
+      },
+      {
+        "type":        "improved",
+        "title":       "PHP 7+ Only",
+        "description": [
+          "PHP 7.0+ is required to run Shield v10.",
+          "This change in minimum requirements lets us optimise Shield code for PHP 7 and better prepare for PHP 8."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "More reliable 2FA email codes",
+        "description": [
+          "2FA codes generated for email 2FA are more reliable."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "U2F two-factor authentication can now be standalone",
+        "description": [
+          "Due to the experimental nature of the U2F implementation, you needed at least one other 2FA factor active on your profile before you could enable U2F."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Server Public IPv6 Detection",
+        "description": [
+          "Detection of your WordPress server's public IPv6 address has been fixed."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "HTTP loopback tests would timeout",
+        "description": [
+          "HTTP loopback request now has a longer timeout to be more reliable for slow sites."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Link Cheese requests could be missed",
+        "description": [
+          "Detection of requests to link cheese is improved."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Potential PHP error",
+        "description": [
+          "A PHP error has been fixed which would occur in some cases."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Database creation may delete existing tables",
+        "description": [
+          "In some cases during plugin upgrade, some table may get inadvertently deleted."
+        ],
+        "patch":       "10.0.1"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Fatal error when IP address isn't detected",
+        "description": [],
+        "patch":       "10.0.2"
+      },
+      {
+        "type":        "fixed",
+        "title":       "Not correctly identifying GoogleBot.",
+        "description": [],
+        "patch":       "10.0.3"
+      }
+    ]
+  },
+  "9.2":  {
+    "version":     "9.2",
+    "released_at": 1599135934,
+    "hrefs":       {
+      "release": "https://shsec.io/shieldrelease92",
+      "upgrade": "https://shsec.io/shieldupgradeguide92"
+    },
+    "title":       "Improved UX For Logged-In Users",
+    "description": [
+      "Most notable in this release is a feature that allows logged-in users to unblock their IP.",
+      "Note that this will also be the final release to support PHP 5."
+    ],
+    "items":       [
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Automatic Unblock For Logged-In Users",
+        "description": [
+          "When a user's IP address is blocked on a site, they may automatically unblock it if they're logged-in.",
+          "By using a magic unblock-link, users may regain access to a site without intervention from an admin."
+        ],
+        "href":        "https://shsec.io/ii"
+      },
+      {
+        "type":        "new",
+        "pro_only":    false,
+        "title":       "Auto-Delete Unnecessary WordPress Files",
+        "description": [
+          "Files such as wp-config-sample.php, readme.html and license.txt are replaced each time WordPress upgrades.",
+          "This new option ensures that they are removed each time they are restored to your site after an upgrade."
+        ],
+        "href":        "https://shsec.io/hv"
+      },
+      {
+        "type":        "new",
+        "pro_only":    true,
+        "title":       "Support for WP Members plugin",
+        "description": [
+          "Provide native support for protection on WP Members plugin login/registration forms."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Defer to WordPress 5.5 Automatic Updates Changes",
+        "description": [
+          "Automatic updates notification email is now only sent if on WordPress < 5.5"
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Integrate with WordPress 5.5 Automatic Updates Changes",
+        "description": [
+          "Shield's Automatic updates notification email setting also applies to plugin/theme update emails."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Improved Integration with WP Fastest Cache",
+        "description": [
+          "Use WP Fastest Cache method to prevent caching of block pages. Whether it makes a difference is another thing."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Better Mitigation of Error From Other Plugins",
+        "description": [
+          "Prevent spurious output from errors not relating to this plugin from affecting display of our admin pages."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Better Detection Of forceoff File",
+        "description": [
+          "Detecting the forceoff file is all its many forms is improved."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "File Locker + open_basedir",
+        "description": [
+          "The File Locker is less likely to trigger an open_basedir warning."
+        ]
+      },
+      {
+        "type":        "improved",
+        "title":       "Lots Of Code Optimisation",
+        "description": []
+      },
+      {
+        "type":        "changed",
+        "title":       "Session Cookie Name Change",
+        "description": [
+          "Session cookie renamed from icwp-wpsf to wp-icwp-wpsf."
+        ]
+      },
+      {
+        "type":        "changed",
+        "title":       "Bootstrap Library Updated",
+        "description": [
+          "Upgraded shipped Bootstrap libraries to latest available (v4.5.2)."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Increased Limit For Counting IP Offenses",
+        "description": [
+          "Upgraded the database to support much larger values for the IP offenses counter."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "MemberPress Integration Bug",
+        "description": [
+          "MemberPress support had a bug where certain forms weren’t checked for bots."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "WP-CLI Bugs",
+        "description": [
+          "Cleaned some WP-CLI PHP notices on certain commands."
+        ]
+      },
+      {
+        "type":        "fixed",
+        "title":       "Bug: User Sessions",
+        "description": [
+          "User session IDs weren’t cleared correctly."
+        ],
+        "patch":       "9.2.1"
+      }
+    ]
+  }
+}

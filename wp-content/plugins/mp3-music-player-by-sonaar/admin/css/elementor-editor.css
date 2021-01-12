@@ -1,0 +1,71 @@
+/* Badge for Sonaar elementor elements
+--------------------------*/
+.elementor-element{
+    position: relative;
+}
+.elementor-element .sonaar-badge:after{
+    content: "Sonaar";
+    border-radius: 0px;
+    background-color: #008479;
+    color: #fff;
+    position: absolute;
+    top: 35px;
+    left: -34px;
+    letter-spacing: 3px;
+    transform: rotate(-90deg);
+    z-index: 1;
+    padding: 3px 15px 3px;
+    font-weight: 600;
+    font-size: 9px;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+}
+.elementor-element:hover .sonaar-badge,
+div[id*="elementor-panel-category-elementor-sonaar"] .elementor-element:hover .icon,
+div[id*="elementor-panel-category-elementor-sonaar"] .elementor-element:hover .title {
+    color: #008479 !important;
+}
+/* Go Pro Panel
+--------------------------*/
+.sr_gopro .elementor-nerd-box-message{
+    font-size:12px;
+}
+.sr_gopro.elementor-nerd-box{
+    padding:20px;
+}
+.sr_gopro ul {
+    margin-top: 30px;
+    padding: 20px 0px;
+}
+.sr_gopro li {
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.sr_gopro i.eicon-check {
+    margin-right: 6px;
+}
+.sr_gopro li:before {
+    position: absolute!important;
+    left: 50px;
+    font-family: FontAwesome!important;
+
+}
+.sr-pro-only label.elementor-control-title:after {
+    content: "MP3 PRO ONLY";
+    background-color: #d30c5c;
+    padding: 2px 6px;
+    margin-left: 6px;
+    position: relative;
+    bottom: 1px;
+    letter-spacing: 0.1px;
+    font-size: 9px;
+    border-radius: 3px;
+}
+.sr-pro-only {
+    pointer-events: none;
+}
+.sr-pro-only .elementor-control-content {
+    opacity: 0.6;
+}

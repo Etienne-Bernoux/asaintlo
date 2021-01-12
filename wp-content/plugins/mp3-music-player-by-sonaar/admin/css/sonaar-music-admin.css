@@ -1,0 +1,346 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ @media (min-width: 576px){
+    .card-deck {
+        padding-left: 40px;
+        padding-right: 60px;
+      }
+}
+.cmb2-options-page {
+    max-width: 100%!important;
+}
+.postbox.cmb-row.cmb-repeatable-grouping {
+    border-radius: 6px!important;
+    background-color: #f7f7f7;
+}
+#sonaar_audioplayer-form p.cmb2-metabox-description {
+    font-style: initial;
+}
+.cmb-repeatable-group .cmb-group-title {
+    color: #fff!important;
+    background-color: #000000!important;
+    font-size: 18px!important;
+}
+.cmb-row .sr-select {
+    border-radius: 4px;
+    margin-top: 0px;
+    min-height: 30px!important;
+    padding: 5px 25px 5px 5px!important;
+}
+.cmb-row .store-name, .cmb-row .store-link, .cmb-row .store-target {
+    margin-right: 10px;
+}
+#sonaar_audioplayer-form #artwork-status {
+    display: none!important;
+}
+button.cmb-add-group-row.button-secondary,button.cmb-add-group-row.button-secondary:hover,button.cmb-add-group-row.button-secondary:focus {
+    background-color: #a500ce;
+    color: #fff;
+    padding: 10px 25px 10px 25px!important;
+    font-size: 14px;
+    height: 49px;
+    text-transform: uppercase;
+}
+button.cmb-add-group-row.button-secondary:hover{
+    background-color: #800082!important;  
+}
+
+button.cmb-add-row-button.button-secondary, button.cmb-add-row-button.button-secondary:hover, button.cmb-add-row-button.button-secondary:focus {
+    background-color: #62007b;
+    color: #fff;
+}
+button.cmb-add-row-button.button-secondary:hover{
+    background-color: #a500ce!important;  
+}
+.option-iron_music_player h2{
+    display:none;
+}
+.album_page_sonaar_music_promo .card-deck {
+    margin: 0 auto;
+    max-width: 768px;
+}
+.album_page_sonaar_music_promo #sonaar_music .card {
+    background-color: #23282d!important;
+}
+.album_page_sonaar_music_promo #sonaar_music .btn-primary {
+    background-color: #00c78f;
+    border-color: #009269;
+}
+.album_page_sonaar_music_promo #sonaar_music .btn-lg {
+    padding: 1rem 1.5rem;
+}
+.album_page_sonaar_music_promo #sonaar_music .card-title {
+    font-size:36px;
+    margin-top: 30px;
+}
+
+#sonaar_music .sr_it_ctabuttons{
+    margin-top:55px;
+    margin-bottom:40px;
+}
+ /**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ @font-face {
+    font-family: 'CircularStd-Book';
+    src: url('../fonts/CircularStd-Book.eot'); 
+    src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/CircularStd-Book.woff2') format('woff2'), 
+    url('../fonts/CircularStd-Book.woff') format('woff'), 
+    url('../fonts/CircularStd-Book.ttf') format('truetype'),
+    url('../fonts/CircularStd-Book.svg#svgFontName') format('svg');
+  }
+@font-face{
+  font-family: 'CircularStd-Medium';
+    src: url('../fonts/CircularStd-Medium.eot');
+    src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+    url('../fonts/CircularStd-Medium.woff') format('woff'),
+    url('../fonts/CircularStd-Medium.ttf') format('truetype'),
+    url('../fonts/CircularStd-Medium.svg#svgFontName') format('svg');
+}
+.album_page_sonaar_music_promo #sonaar_music .sr_it_listgroup{
+    max-width:100%;
+}
+.album_page_sonaar_music_promo #sonaar_music p{
+    max-width: 760px;
+    display: inline-block;
+    font-size:21px;
+}
+.album_page_sonaar_music_promo #sonaar_music ul {
+    display: inline-block;
+    max-width: 550px;
+    text-align:left;
+    padding: 30px;
+}
+.album_page_sonaar_music_promo #sonaar_music li {
+    margin-bottom: 14px;
+    font-size:18px;
+    display: block;
+}
+
+.album_page_sonaar_music_promo #sonaar_music li:before {
+    content: ">";
+    font-size: 9px;
+    position: relative;
+    margin-left: -18px;
+    margin-right: 11px;
+    top: -2px;
+    color: #00c78f;
+}
+
+.jumbotron {
+    font-family:"CircularStd-Book";
+    background: url("../img/sonaar-music-banner-blue.jpg") no-repeat left top; 
+    background-size: cover!important;
+}
+.album_page_sonaar_music_promo #sonaar_music .card-deck{
+    font-family:"CircularStd-Book"!important;
+}
+.album_page_sonaar_music_promo #sonaar_music .jumbotron{
+    font-family:"CircularStd-Book";
+    background: url("../img/sonaar-music-banner-blue.jpg") no-repeat left top; 
+    background-size: cover!important;
+}
+.jumbotron h1{
+    color:#fff;
+    font-family:"CircularStd-Medium";
+    font-size:75px;
+    line-height: 69px;
+
+}
+.jumbotron .tagline {
+    margin-top:40px;
+    font-size: 1.4rem;
+}
+#sonaar_music .headertxt {
+    max-width: 850px;
+    display: inline-block;
+}
+#sonaar_music{
+  margin:0px -30px 0;
+}
+#sonaar_music .logo {
+    text-align: left;
+}
+#sonaar_music .jumbotron{
+   border-radius: 0;
+}
+#sonaar_music .card{
+  padding: 0;
+  max-width: 100%;
+}
+
+#sonaar_music .breadcrumb{
+  margin-left: 0;
+}
+.wp-list-table #alb_stats{
+  width: 24px;
+}
+
+
+ .wp-list-table #alb_icon{
+   width: 64px;
+ }
+ .wp-list-table #alb_tracklist,
+ .wp-list-table #alb_store_list{
+   width: 70px;
+ }
+
+ .wp-list-table #alb_shortcode{
+    width: 24px;
+  }
+ #sonaar_promo .cmb-row.cmb-type-calltoaction.cmb2-id-calltoaction {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+#sonaar_promo .inside {
+    margin: 0px;
+    padding:0px;
+}
+#sonaar_promo button {
+    display: none;
+}
+
+#sonaar-music-footer{
+    clear: both;
+    margin-left: 160px;
+    padding: 10px 20px;
+    color: #555d66;
+    position: absolute;
+    bottom: 30px
+}
+#sonaar-music-footer p{
+    line-height: 1.25;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Sonaar Music Rating CSS */
+.sonaar-music-review-box p a {
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	color: #999999;
+	position: absolute;
+	right: 12px;
+	top: 12px;
+}
+.sonaar-music-review-box p a:hover, .sonaar-music-review-box p a:focus {
+	color: #ffffff;
+}
+.sonaar-music-review-box .button span {
+	display: inline-block;
+	line-height: 27px;
+	font-size: 16px;
+}
+
+.sonaar-music-review-box-title {
+	padding: 0 0 10px 0;
+	font-weight: bold;
+}
+.sonaar-music-review-box-options a {
+	display: block;
+	margin: 5px 0 5px 0;
+	color: #333;
+	text-decoration: none;
+}
+.sonaar-music-review-box-options a.dismiss {
+	color: #999;
+}
+.sonaar-music-review-box-options a:hover {
+	color: #0073aa;
+}
+
+button.sonaar-music-close-review-box-popup {
+	position: absolute;
+	top: 5px;
+	right: 0;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+}
+a.button.button-primary.sonaar-music-review-box-btn {
+	font-size: 14px;
+	background: #F51366;
+	color: #fff;
+	border: solid 1px #F51366;
+	border-radius: 3px;
+	line-height: 24px;
+	-webkit-box-shadow: 0 3px 5px -3px #333333;
+	-moz-box-shadow: 0 3px 5px -3px #333333;
+	box-shadow: 0 3px 5px -3px #333333;
+	text-shadow: none;
+}
+.sonaar-music-review-box {
+    color: #e0e0e0;
+    background-color: #23282d;
+	position: relative;
+	padding: 1px 30px 1px 12px;
+}
+.sonaar-music-review-box div{
+	margin: 0 0 15px 0;
+}
+.sonaar-music-review-box h3{
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: #e0e0e0;
+}
+.sonaar-music-review-box p {
+    display: inline-block;
+    line-height: 22px;
+    vertical-align: middle;
+    margin-bottom: 12px;
+    padding: 0 10px 0 0;
+}
+.sr-notice-logo img{
+    width:45px;
+}
+.sr-notice-logo {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 20px;
+    padding-right:20px;
+}
+.sr-notice-content {
+    display: inline-block;
+    width: 90%;
+}
+.sr-notice-cta {
+
+}
+.sr-stream-url-field input.cmb2-text-medium{
+    width: 100%!important;
+    max-width: 580px!important;
+}
+.sr-stream-title-field .regular-text, .sr-stream-album-field .regular-text{
+    width: 100%!important;
+    max-width: 480px!important;
+}
+
+/* MP3 Music player page option */
+#sonaar_footer_player_meta{
+    margin: 10px 0;
+  }
+  #meta-footer-player .hndle{
+    cursor: pointer;
+  }
+  .meta-box-sortables #meta-footer-player select {
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  #meta-footer-player label{
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+  .edit-post-meta-boxes-area #poststuff #meta-footer-player h2.hndle{
+    color: #191e23;
+    font-size: 13px;
+    font-weight: 600;
+  }

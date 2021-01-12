@@ -1,0 +1,1360 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: MP3 Music Player by Sonaar\n"
+"POT-Creation-Date: 2020-02-19 15:04-0500\n"
+"PO-Revision-Date: 2020-02-19 15:04-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: sonaar-music.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Author of the plugin/theme
+#: admin/class-sonaar-music-admin.php:116
+msgid "Sonaar Music"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:120
+msgid "Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:128
+msgid "Music Player Color Setting"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:148
+#: includes/widgets/sr-music-player.php:54
+msgid "Music Player Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:170
+msgid "Display Artist Name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:177
+msgid "Artist Name Prefix Separator"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:180
+#: includes/class-sonaar-music-widget.php:241
+#: includes/class-sonaar-music-widget.php:499
+msgid "by"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:181
+msgid ""
+"To be used between track title and artist name. Eg: The audio track title "
+"<separator> the artist name"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:188
+#: admin/class-sonaar-music-admin.php:604
+#: admin/class-sonaar-music-admin.php:605
+#: includes/widgets/sr-music-player.php:289
+msgid "Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:189
+#: admin/class-sonaar-music-admin.php:204
+#: admin/class-sonaar-music-admin.php:218
+msgid "Choose a font, font size and color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:203
+msgid "Album Title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:217
+#: admin/class-sonaar-music-admin.php:430
+msgid "Album Subtitle"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:231
+msgid "Button Colors"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:242
+msgid "Track Store Drawer Colors"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:253
+msgid "Player Control"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:264
+msgid "SoundWave Bars"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:275
+msgid "SoundWave Progress Bar"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:288
+msgid "Sticky Player Settings"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:297
+msgid "Typography"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:311
+msgid "Featured Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:323
+msgid "Labels and Buttons"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:335
+msgid "Soundwave Bars"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:347
+msgid "Soundwave Progress Bars"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:359
+msgid "Mobile Progress Bars"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:371
+msgid "Sticky Background Color"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:386
+#: admin/class-sonaar-music-admin.php:390
+#: includes/widgets/sr-music-player.php:173
+#: includes/widgets/sr-music-player.php:203
+msgid "Go Pro"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:419
+msgid "Album infos"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:438
+msgid "Do not skip to the next track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:446
+msgid "Tracklists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:449
+msgid "Track {#}"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:450
+msgid "Add Another track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:451
+msgid "Remove track"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:457
+msgid "Source File"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:471
+msgid "MP3 File"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:473
+msgid "Only .MP3 file accepted"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:487
+msgid "External Audio link"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:489
+msgid "Add link to your external MP3 file"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:499
+msgid "Track title"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:524
+msgid "Track Album"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:525
+msgid "Leave blank if it's the same as the playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:537
+msgid "Where to buy/download this track?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:545
+msgid "Eg: iTunes, SoundCloud, Buy Now"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:546
+msgid "Link to the online store"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:554
+msgid "Where can we buy this album?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:564
+msgid "Why MP3 Player PRO?"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:575
+msgid "sonaar pro"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:603
+msgid "Playlists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:606
+msgid "MP3 Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:607
+msgid "All Playlists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:608
+#: admin/class-sonaar-music-admin.php:609
+msgid "Add New Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:610
+msgid "Edit Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:611
+msgid "New Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:612
+msgid "View playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:613
+msgid "Search Playlists"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:614
+msgid "No playlists found."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:615
+msgid "No playlists found in the Trash."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:616
+msgid "Playlist Cover Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:617
+msgid "Set Playlist Cover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:618
+msgid "Remove Playlist Cover"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:643
+msgctxt "Taxonomy : name"
+msgid "Playlist Categories"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:644
+msgctxt "Taxonomy : all_items"
+msgid "All Categories"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:645
+msgctxt "Taxonomy : singular_name"
+msgid "Category"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:646
+msgctxt "Taxonomy : add_new_item"
+msgid "Add New Category"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:647
+msgctxt "Taxonomy : not_found"
+msgid "No categories found."
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:705
+#: admin/class-sonaar-music-admin.php:706
+msgid "Sonaar Music AudioPlayer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:715
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:54
+msgid "Cancel"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:716
+msgid "Insert AudioPlayer"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:738
+msgid "Title of your Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:743
+msgid "Albums"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:750
+msgid "Hide Album Cover Image"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:756
+#: includes/class-sonaar-music-widget.php:407
+#: includes/widgets/sr-music-player.php:111
+msgid "Show Playlist"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:762
+msgid "Show Track Store"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:768
+msgid "Show Album Store"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:774
+msgid "Remove Soundwave Spectrum"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:791
+msgid "Enable Sticky Player"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:844
+msgid "Published"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:858
+#: admin/class-sonaar-music-admin.php:866
+msgid "N/A"
+msgstr ""
+
+#: admin/class-sonaar-music-admin.php:881
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:85
+#, php-format
+msgid ""
+"Hey, I've noticed you've created %d playlists with the MP3 Player - That's "
+"awesome!"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:87
+msgid ""
+"Could you please do me a BIG favor in return and give it a 5-star rating "
+"★★★★★ on WordPress ? That would make my day!"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:91
+msgid "★ Ok, you deserve it"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:92
+msgid "I already did"
+msgstr ""
+
+#: admin/class-sonaar-music-review.php:93
+msgid "Nope, not good enough"
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button-mce.php:102
+msgid "No items found."
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:55
+msgid "Insert Shortcode"
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:56
+msgid "Update Shortcode"
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:57
+msgid "Shortcode Contents"
+msgstr ""
+
+#: admin/library/Shortcode_Button/lib/class-shortcode-button.php:344
+msgid "failed verification"
+msgstr ""
+
+#: admin/library/Shortcode_Button/templates/modal.php:7
+#: admin/library/Shortcode_Button/templates/modal.php:10
+msgid "Close"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/example-field-setup.php:22
+#: admin/library/cmb2-attached-posts/example-field-setup.php:30
+msgid "Attached Posts"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/example-field-setup.php:31
+msgid ""
+"Drag posts from the left column to the right column to attach them to this "
+"page.<br />You may rearrange the order of the posts in the right column by "
+"dragging and dropping."
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/example-field-setup.php:46
+msgid "Attached Users"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/example-field-setup.php:47
+msgid ""
+"Drag users from the left column to the right column to attach them to this "
+"page.<br />You may rearrange the order of the users in the right column by "
+"dragging and dropping."
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:118
+msgid "Users"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:124
+#, php-format
+msgid "Filter %s"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:142
+#, php-format
+msgid "Available %s"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:162
+msgid "Search"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:168
+msgid "An error has occurred. Please reload the page and try again."
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:169
+msgid "Find Posts or Pages"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:182
+#, php-format
+msgid "Attached %s"
+msgstr ""
+
+#: admin/library/cmb2-attached-posts/init.php:290
+msgid "Edit"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:183
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:184
+msgid "field description (optional)"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:188
+msgid "Check One"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:189
+msgid "Check Two"
+msgstr ""
+
+#: admin/library/cmb2-conditionals/example-functions.php:190
+msgid "Check Three"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2.php:176
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2.php:578
+msgid "Click to toggle"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Ajax.php:181
+msgid "Remove Embed"
+msgstr ""
+
+#. translators: 1: results for. 2: link to codex.wordpress.org/Embeds
+#: admin/library/cmb2/includes/CMB2_Ajax.php:189
+#: admin/library/cmb2/includes/helper-functions.php:105
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:422
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%1$s\" "
+"parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:426
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%1$s\" parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:456
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:458
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:491
+#: admin/library/cmb2/includes/CMB2_Hookup_Base.php:100
+#: admin/library/cmb2/includes/CMB2_Options_Hookup.php:286
+#: admin/library/cmb2/includes/types/CMB2_Type_Base.php:149
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Base.php:506
+#: admin/library/cmb2/includes/types/CMB2_Type_Base.php:133
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1211
+msgid "Add Group"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1212
+msgid "Remove Group"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1243
+#: admin/library/cmb2/includes/CMB2_Field.php:1247
+msgid "None"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field.php:1358
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Field_Display.php:432
+#: admin/library/cmb2/includes/CMB2_JS.php:204
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:78
+msgid "File:"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Hookup_Base.php:42
+#, php-format
+msgid "%1$s should be implemented by the extended class."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:143
+#: admin/library/cmb2/includes/CMB2_JS.php:184
+msgid "Clear"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:144
+msgid "Default"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:145
+msgid "Select Color"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:146
+msgid "Current Color"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:174
+msgctxt "Valid formatDate string for jquery-ui datepicker"
+msgid "mm/dd/yy"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:175
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:176
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:177
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:178
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:179
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:180
+msgid "Next"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:181
+msgid "Prev"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:182
+msgid "Today"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:183
+#: admin/library/cmb2/includes/CMB2_JS.php:193
+msgid "Done"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:187
+msgid "Choose Time"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:188
+msgid "Time"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:189
+msgid "Hour"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:190
+msgid "Minute"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:191
+msgid "Second"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:192
+msgid "Now"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:194
+msgctxt ""
+"Valid formatting string, as per http://trentrichardson.com/examples/"
+"timepicker/"
+msgid "hh:mm TT"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:200
+msgid "Use this file"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:201
+msgid "Use these files"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:202
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:63
+msgid "Remove Image"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:203
+#: admin/library/cmb2/includes/CMB2_Types.php:412
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:83
+msgid "Remove"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:205
+#: admin/library/cmb2/includes/types/CMB2_Type_File_Base.php:81
+msgid "Download"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_JS.php:206
+msgid "Select / Deselect All"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Options_Hookup.php:126
+msgid "Nothing to update."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Options_Hookup.php:130
+msgid "Settings updated."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Types.php:231
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Types.php:349
+msgid "Add Row"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_Types.php:412
+msgid "Remove Row"
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_hookup.php:181
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_hookup.php:185
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: admin/library/cmb2/includes/CMB2_hookup.php:458
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: admin/library/cmb2/includes/helper-functions.php:303
+msgid "Save"
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:277
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:300
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:378
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:385
+msgid "The id for the object."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller.php:392
+msgid "The title for the object."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:297
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:312
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:341
+msgid "No field found by that id."
+msgstr ""
+
+#: admin/library/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:415
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#. translators: %s: register_routes()
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:25
+#, php-format
+msgid "Method '%s' must be overridden."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:35
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:47
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:59
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:71
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:83
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:95
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:107
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:119
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:131
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:143
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:155
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:168
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:273
+msgid "Current page of the collection."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:281
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:290
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: admin/library/cmb2/includes/shim/WP_REST_Controller.php:308
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_File.php:76
+msgid "Add or Upload File"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr ""
+
+#: admin/library/cmb2/includes/types/CMB2_Type_Taxonomy_Base.php:99
+msgid "No terms"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:62
+msgctxt "Widget"
+msgid "A simple radio that plays a list of songs from selected albums."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:81
+msgctxt "Widget"
+msgid "Sonaar: Music Player"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:99
+msgid "Available now on:"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:181
+msgctxt "Widget"
+msgid "Loading tracks..."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:183
+msgctxt "Widget"
+msgid "No tracks founds..."
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:211
+msgid "No playlist selected"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:220
+msgid "Playlist has been deleted. ID: "
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:385
+msgctxt "Widget"
+msgid "Title:"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:387
+msgid "Popular Songs"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:391
+msgctxt "Widget"
+msgid "Album:"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:415
+msgid "Show Album store"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:422
+msgid "Show Track store"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:430
+msgid "Remove Visual Player"
+msgstr ""
+
+#: includes/class-sonaar-music-widget.php:438
+#, php-format
+msgctxt "Widget"
+msgid "No albums have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: includes/plugin.php:64
+msgid "Sonaar Widgets"
+msgstr ""
+
+#: includes/queries.php:83
+msgid "Create an Artist First"
+msgstr ""
+
+#: includes/queries.php:103
+msgid "Create a Playlist First"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:27
+msgid "MP3 Music Player"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:62
+#: includes/widgets/srpro-buttonplayer.php:54
+msgid "Select Playlist(s)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:99
+msgid "Enable Sticky Audio Player"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:101
+#: includes/widgets/sr-music-player.php:158
+#: includes/widgets/sr-music-player.php:301
+#: includes/widgets/sr-music-player.php:587
+#: includes/widgets/sr-music-player.php:669
+#: includes/widgets/sr-music-player.php:681
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:102
+#: includes/widgets/sr-music-player.php:159
+#: includes/widgets/sr-music-player.php:302
+#: includes/widgets/sr-music-player.php:588
+#: includes/widgets/sr-music-player.php:670
+#: includes/widgets/sr-music-player.php:682
+msgid "No"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:113
+#: includes/widgets/sr-music-player.php:124
+#: includes/widgets/sr-music-player.php:136
+#: includes/widgets/sr-music-player.php:147
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:114
+#: includes/widgets/sr-music-player.php:125
+#: includes/widgets/sr-music-player.php:135
+#: includes/widgets/sr-music-player.php:146
+msgid "Hide"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:122
+#: includes/widgets/sr-music-player.php:814
+msgid "Album Stores"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:133
+msgid "Hide Album Cover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:144
+msgid "Hide Mini Player / Soundwave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:155
+msgid "Play its own Post ID track"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:156
+msgid ""
+"Check this case if this player is intended to be displayed on its own single "
+"post"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:184
+msgid "Meet the MP3 Player PRO"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:187
+msgid ""
+"Our PRO version lets you use Elementor's Style Editor to customize the look "
+"and feel of the player in real-time! Over 70+ options available!"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:200
+msgid "All those features are available with the MP3 Player's Pro Version."
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:219
+msgid "Album Cover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:229
+msgid "Image Width"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:245
+msgid "Image Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:256
+msgid "Image Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:260
+#: includes/widgets/sr-music-player.php:389
+#: includes/widgets/sr-music-player.php:415
+#: includes/widgets/sr-music-player.php:440
+#: includes/widgets/sr-music-player.php:890
+#: includes/widgets/sr-music-player.php:918
+msgid "Left"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:264
+#: includes/widgets/sr-music-player.php:393
+#: includes/widgets/sr-music-player.php:419
+#: includes/widgets/sr-music-player.php:444
+#: includes/widgets/sr-music-player.php:894
+#: includes/widgets/sr-music-player.php:922
+msgid "Center"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:268
+#: includes/widgets/sr-music-player.php:397
+#: includes/widgets/sr-music-player.php:423
+#: includes/widgets/sr-music-player.php:448
+#: includes/widgets/sr-music-player.php:898
+#: includes/widgets/sr-music-player.php:926
+msgid "Right"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:299
+msgid "Move Playlist Below Artwork"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:318
+msgid "Title Options"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:326
+#: includes/widgets/sr-music-player.php:1188
+msgid "Hide Title"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:338
+#: includes/widgets/sr-music-player.php:1212
+msgid "Title Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:353
+#: includes/widgets/sr-music-player.php:1201
+msgid "Title Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:365
+msgid "Title Indent"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:385
+msgid "Playlist Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:411
+msgid "Title Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:436
+msgid "Tracklist Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:462
+msgid "Subtitle Options"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:470
+msgid "Hide Subtitle"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:482
+msgid "Subtitle Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:497
+msgid "Subtitle Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:509
+msgid "Track Options"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:517
+msgid "Track Title Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:528
+msgid "Track Title Hover Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:540
+msgid "Track Title Active Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:553
+msgid "Track Title Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:561
+msgid "Track Separator Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:572
+msgid "Hide Track Number"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:585
+msgid "Hide Track Duration"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:600
+msgid "Time Duration Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:611
+msgid "Time Duration Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:632
+msgid "Play/Pause Button Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:643
+msgid "Play/Pause Button Size"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:659
+msgid "Track Icon Buttons"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:667
+msgid "Hide Track's Call-to-Action(s)"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:678
+msgid "Display Icons without Popover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:697
+msgid "Popover Icon Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:711
+msgid "Icons Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:725
+#: includes/widgets/sr-music-player.php:1133
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:744
+msgid "Icons Size"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:770
+msgid "Playlist Margin"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:781
+msgid "Tracks Margin"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:792
+msgid "Playlist Width"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:825
+msgid "Heading Option"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:833
+msgid "Hide Stores Heading"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:845
+msgid "Stores Heading"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:860
+msgid "Store Title Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:875
+msgid "Store Title Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:886
+msgid "Store Title Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:914
+msgid "Album Store Alignment"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:947
+msgid "Store Button Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:958
+msgid "Normal"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:965
+#: includes/widgets/sr-music-player.php:1001
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:977
+#: includes/widgets/sr-music-player.php:1011
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:994
+msgid "Hover"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1021
+msgid "Button Border Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1047
+msgid "Button Radius"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1069
+msgid "Button Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1081
+msgid "Buttons Space"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1103
+msgid "Hide Icon"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1115
+msgid "Icon Font Size"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1159
+msgid "Album Stores Padding"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1178
+msgid "Mini Player & Soundwave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1236
+msgid "Hide SoundWave"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1248
+msgid "SoundWave Progress Bar Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1260
+msgid "SoundWave Background Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1279
+msgid "Audio Player Controls Color"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1297
+msgid "Hide Time Durations"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1313
+msgid "Time Typography"
+msgstr ""
+
+#: includes/widgets/sr-music-player.php:1325
+msgid "Time Color"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:34
+msgid "Launch the Sticky Audio Player"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:41
+msgid "Launch a Music Playlist"
+msgstr ""
+
+#: includes/widgets/srpro-buttonplayer.php:44
+msgid ""
+"Make sure to leave the button link BLANK above (eg: remove the hashtag #)"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "MP3 Music Player by Sonaar"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://goo.gl/mVUJEJ"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This MP3 Audio Player will boosts your music website with its unique "
+"soundwave design. Manage your tracks, playlists and albums easily within "
+"WordPress."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://goo.gl/tTcJ1Y"
+msgstr ""

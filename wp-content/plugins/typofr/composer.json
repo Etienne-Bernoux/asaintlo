@@ -1,0 +1,20 @@
+{
+    "name": "borisschapira/typofr",
+    "description": "a plugin for french typography management, powered by JoliTypo",
+    "authors": [
+        {
+            "name": "Boris",
+            "email": "bschapira@clever-age.com"
+        }
+    ],
+    "require": {
+        "jolicode/jolitypo": "~0.2.0"        
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jolicode/JoliTypo.git"
+        }
+    ],
+    "license": "MIT"
+}
